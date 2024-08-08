@@ -1,28 +1,74 @@
-# Machine Learning Project Credit Risk Assessment (Using Logistic Regression) on ID/X Partners
+Credit Risk Assessment Project: An Overview
 
-## Project Description
+## Project Title: Comprehensive Credit Risk Assessment Using Data Analytics
 
-A primary risk with corporate loans is failing in accurately assessing credit risk. Disadvantage of Manual credit risk assessment :
+## Objective: To develop an advanced credit risk assessment model for evaluating the likelihood of loan defaults. This project aims to provide actionable insights for optimizing cash flow and managing working capital, aligning with the responsibilities of the CIB Research & Analytics - Payments - Global Trade & Working Capital Intern role at J.P. Morgan.
 
-- Subjectivity can introduce bias and inconsistency in decision-making
-- Time-consuming especially when dealing with a large number of loan applications.
-- Humans errors, such as data entry mistakes, miscalculations, or oversight of important details
+## Project Description:
 
-**Challenges :**  
-Build a machine learning model that can predict credit risk assessment
+In this project, I conducted a thorough analysis of loan performance metrics to assess credit risk. The project involved:
 
-## Project Goal
+## Data Preparation and Analysis:
 
-Build a machine learning model that can predict credit risk assessment
+## Data Collection: Utilized a dataset from financial institutions, capturing various loan-related attributes such as loan_status, loan_amount, interest_rate, and payment_time.
+## Data Cleaning and Aggregation: Aggregated data to calculate key performance indicators such as the total number of customers and their corresponding loan statuses. Calculated the percentage of customers in each category to understand the distribution of loan statuses.
+# Credit Risk Analysis:
 
-## Tools & Library Used
+## Loan Status Distribution: Analyzed the distribution of loan statuses (Good Loan, Bad Loan) to identify trends and anomalies.
+## Bad Loan Rate Analysis: Assessed the rate of bad loans based on different loan attributes:
+## Loan Amount: Evaluated how varying loan amounts influence the likelihood of a loan becoming a bad loan. This analysis involved grouping data by score_group, loan_status, and loan_amount, calculating the proportion of bad loans within each category, and visualizing these insights using bar plots.
+## Interest Rate: Investigated the correlation between interest rates and the rate of bad loans. The analysis was conducted by grouping data by score_group, loan_status, and interest_rate, followed by calculating and visualizing bad loan rates for different interest rate brackets.
+## Payment Time: Explored the impact of payment time on loan default rates. Grouped data by score_group, loan_status, and payment_time to determine the bad loan rate across different payment time categories.
+## Visualization and Interpretation:
 
-[<img src="./image/python-logo-2.png" alt="python-logo" width="50"/>](https://www.python.org/) &nbsp;
-[<img src="./image/jupyter-logo.png" alt="jupyter-logo" width="50"/>](https://jupyter.org/) &nbsp;
+Created detailed visualizations to illustrate the bad loan rates across different variables. Plots included bar charts highlighting the risk levels associated with different loan amounts, interest rates, and payment times.
+Incorporated vertical lines and annotations to mark critical thresholds and provide clear visual cues for risky loan categories.
+## Insights and Recommendations:
 
-## Project Result
+Identified that customers with low credit scores and high loan amounts or high interest rates are more likely to default.
+Recommended focusing on these high-risk segments for closer scrutiny and risk management.
+Suggested integrating this risk assessment model into existing credit evaluation frameworks to enhance decision-making processes and minimize financial risk.
 
-[Click here to get full code](https://github.com/nickenshidqia/Credit_Risk_Assessment_IDX_Partners/blob/906f1c14fe45de01844e1504028ff0b2d48ebe3c/Credit%20Risk%20Assessment%20%20-%20Nicken%20Shidqia%20N.ipynb)
+## Technical Details
+
+Programming Language: Python
+Libraries Used: Pandas, Matplotlib, Seaborn, NumPy
+Key Modules:
+d_frame(): Function to aggregate and calculate loan status distributions.
+plot(): Function to generate bar plots for loan status categories.
+df_bad_loan(): Function to compute bad loan rates based on specified criteria.
+plot_bad_loan(): Function to visualize bad loan rates across various attributes.
+Usage
+
+## Data Preparation: Load and preprocess the dataset to prepare for analysis.
+## Credit Risk Analysis: Utilize the provided functions to analyze loan statuses and compute bad loan rates based on different criteria.
+## Visualization: Generate visualizations to interpret the results and identify high-risk areas.
+## Insights: Review the analysis and insights to make informed decisions on credit risk management.
+
+## Financial Terms and Methodology
+Credit Risk Assessment: We utilize statistical and analytical methods to evaluate the risk that borrowers will default on their loans. This assessment helps in identifying high-risk loans and improving risk management strategies.
+
+Loan Status: Loans are categorized as either 'Good Loan' or 'Bad Loan.' The project analyzes these classifications to determine the proportion of bad loans within the dataset.
+
+Bad Loan Rate: The percentage of loans classified as 'Bad Loan' is calculated and analyzed to gauge the overall risk associated with different loan amounts, interest rates, and payment times.
+
+Loan Amount: The impact of loan sizes on credit risk is examined. We analyze how different loan amounts correlate with the likelihood of loan defaults.
+
+Interest Rate: The project's analysis includes evaluating how varying interest rates affect the bad loan rate. Higher interest rates may increase default risk if borrowers are unable to meet repayment obligations.
+
+Payment Time: We assess how the duration of loan repayment influences the likelihood of default. Longer repayment periods may increase the risk of a loan becoming a bad loan.
+
+Aggregated Data: Data is aggregated to calculate key metrics, such as the number of customers and total loan amounts, which are essential for understanding trends and patterns.
+
+Data Visualization: Visualizations, including bar charts and line graphs, are used to present findings clearly. These visual tools help in identifying patterns and making informed decisions.
+
+Risk Mitigation: The project explores strategies to reduce default risks, such as improving credit scoring models and adjusting loan terms based on analysis.
+
+Working Capital: Efficient management of working capital is highlighted as it relates to optimizing cash flow and reducing financial risk in lending operations.
+
+Supply Chain Finance (SCF): We evaluate SCF solutions to understand their impact on cash flow and working capital, providing insights into optimizing financial operations.
+
+Export / ECA Finance and Trade Loans: The project includes analysis of financing options for exporters and trade-related activities, assessing their influence on credit risk.)
 
 ### Exploratory Data Analysis
 
