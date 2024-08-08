@@ -3,7 +3,7 @@ dataset link : https://www.kaggle.com/datasets/devanshi23/loan-data-2007-2014
 
 ## Project Title: Comprehensive Credit Risk Assessment Using Data Analytics
 
-## Objective: To develop an advanced credit risk assessment model for evaluating the likelihood of loan defaults. This project aims to provide actionable insights for optimizing cash flow and managing working capital, aligning with the responsibilities of the CIB Research & Analytics - Payments - Global Trade & Working Capital Intern role at J.P. Morgan.
+## Objective: To develop an advanced credit risk assessment model for evaluating the likelihood of loan defaults. 
 
 ## Project Description:
 
